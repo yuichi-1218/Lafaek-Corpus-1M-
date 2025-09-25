@@ -22,3 +22,14 @@ We provide different access levels to balance **research priority** and **commun
 git clone https://github.com/username/repo.git
 cd repo
 pip install -r requirements.txt
+
+## 📚 Citation
+If you use this dataset, please cite:
+
+```bibtex
+@inproceedings{nishida2025lafaekavsr,
+  title={Lafaek-AVSR: Cross-Lingual Audio-Visual Speech Recognition for Tetun},
+  author={Nishida, Yuichi and Tamura, Satoshi},
+  booktitle={O-COCOSDA},
+  year={2025}
+}
