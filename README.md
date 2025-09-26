@@ -2,7 +2,7 @@
 LAFAEK-CORPUS-1M+: A LARGE-SCALE TETUN CORPUS TO BUILD A LOW-RESOURCED LLM FOR SPEECH AND TEXT PROCESSING
 *Accepted at O-COCOSDA 2025*
 
-[📄 Paper (PDF)](link-to-paper) |
+[📄 Paper (View on arXiv)](link-to-paper) | [📄 Paper (View on IEEE xplore)](link-to-paper)  | [🤗 Dataset (download Huggingface)](link-to-paper)
 
 ---
 
@@ -28,7 +28,8 @@ git clone https://github.com/username/repo.git
 cd repo
 pip install -r requirements.txt
 
-## 📚 Citation
+---
+##📚 Citation
 If you use this dataset, please cite:
 
 ```bibtex
