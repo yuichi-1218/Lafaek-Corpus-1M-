@@ -6,7 +6,12 @@ LAFAEK-CORPUS-1M+: A LARGE-SCALE TETUN CORPUS TO BUILD A LOW-RESOURCED LLM FOR S
 
 ---
 
-## 📖 Overview
+## 📖 Overview (Paper Abstruct)
+This paper introduces a Tetun text corpus Lafaek-Corpus1M+. A Large Language Model (LLM) has attracted full
+attention in natural language processing and speech processing. To build an LLM, huge corpora are basically needed,
+however, it is quite hard for low-resourced languages. We focus on one Asian language Tetun, and make a text corpus for
+a Tetun LLM. We collect more than million Tetun sentences from various resources. After that, we applied continual pretraining to a Llama-3.1 model using our corpus to build a
+Tetun LLM. We conducted machine translation experiments. It is found that our LLM achieved better performance than the original model, and the effectiveness of our corpus is clarified.
 
 ## 📂 Dataset Access
 We provide different access levels to balance **research priority** and **community contribution**.
