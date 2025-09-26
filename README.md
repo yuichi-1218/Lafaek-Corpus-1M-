@@ -2,7 +2,7 @@
 LAFAEK-CORPUS-1M+: A LARGE-SCALE TETUN CORPUS TO BUILD A LOW-RESOURCED LLM FOR SPEECH AND TEXT PROCESSING
 *Accepted at O-COCOSDA 2025*
 
-[📄 Paper (View on arXiv)](link-to-paper) | [📄 Paper (View on IEEE xplore)](link-to-paper)  | [🤗 Dataset (download Huggingface)](link-to-paper)
+[📄 Paper (View on arXiv)](link-to-paper) | [📄 Paper (View on IEEE xplore)](link-to-paper)  | [🤗 Models (download Huggingface)](link-to-paper)
 
 ---
 
@@ -28,15 +28,23 @@ We are confirming attribution rights and obtaining permissions to make each reso
 
 ---
 
-## ⚙️ How to Use
-Lafaek-Corpus-1M+ Web resources can use Huggingface🤗 
-[HF Dataset Link](link dataset)
+## ⚙️ Model how to use
+Lafaek-Llama-3.1-8B is available use on Huggingface🤗 
+[HF Model Link](link dataset)
 ```python
-import datasets
+import transformers
+import torch
+
+model_id = "Yuichi1218/Lafaek-Llama-3.1-8B"
+pipeline = transformers.pipeline(
+    "text-generation", model=model_id, model_kwargs={"torch_dtype": torch.bfloat16}, device_map="auto"
+)
+pipeline("Bondia !")
+
 ```
 ---
 ## 📚 Citation
-If you use this dataset, please cite:
+If you use this model , please cite:
 
 ```bibtex
 @inproceedings{nishida2025LafaekCorpus,
