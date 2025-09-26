@@ -1,4 +1,4 @@
-# Lafaek-Corpus-1M+
+# Lafaek-Corpus-1M+ & Lafaek-Llama-3.1-8B
 LAFAEK-CORPUS-1M+: A LARGE-SCALE TETUN CORPUS TO BUILD A LOW-RESOURCED LLM FOR SPEECH AND TEXT PROCESSING
 *Accepted at O-COCOSDA 2025*
 
@@ -13,14 +13,13 @@ however, it is quite hard for low-resourced languages. We focus on one Asian lan
 a Tetun LLM. We collect more than million Tetun sentences from various resources. After that, we applied continual pretraining to a Llama-3.1 model using our corpus to build a
 Tetun LLM. We conducted machine translation experiments. It is found that our LLM achieved better performance than the original model, and the effectiveness of our corpus is clarified.
 
-## 📂 Dataset Access
-We provide only web resources 
+## 📂 Dataset　
+We are confirming attribution rights and obtaining permissions to make each resource available.
+
 - **Wikipedia**
 - **MADLAD-400-tetun**
 - **Labadain-30k+**
-
-- **Full Dataset**: Available **upon request** for non-commercial research only.  
-  Please fill this [Access Request Form](link-to-form).
+- **News Transcription Data**
 
 ---
 
