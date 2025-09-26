@@ -2,7 +2,7 @@
 LAFAEK-CORPUS-1M+: A LARGE-SCALE TETUN CORPUS TO BUILD A LOW-RESOURCED LLM FOR SPEECH AND TEXT PROCESSING
 *Accepted at O-COCOSDA 2025*
 
-[📄 Paper (View on arXiv)](link-to-paper) | [📄 Paper (View on IEEE xplore)](link-to-paper)  | [🤗 Models (download Huggingface)](https://huggingface.co/Yuichi1218/Lafaek-Llama-3.1-8B)
+[📄 Paper (View on arXiv)](link-to-paper) | [📄 Paper (View on IEEE Xplore)](link-to-paper)  | [🤗 Models (download Huggingface)](https://huggingface.co/Yuichi1218/Lafaek-Llama-3.1-8B)
 
 ---
 
@@ -43,8 +43,6 @@ pipeline("Bondia !")
 ```
 ---
 ## 📚 Citation
-If you use this model , please cite:
-
 ```bibtex
 @inproceedings{nishida2025LafaekCorpus,
   title={LAFAEK-CORPUS-1M+: A LARGE-SCALE TETUN CORPUS TO BUILD A LOW-RESOURCED LLM FOR SPEECH AND TEXT PROCESSING},
