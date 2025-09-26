@@ -14,28 +14,30 @@ a Tetun LLM. We collect more than million Tetun sentences from various resources
 Tetun LLM. We conducted machine translation experiments. It is found that our LLM achieved better performance than the original model, and the effectiveness of our corpus is clarified.
 
 ## 📂 Dataset Access
-We provide different access levels to balance **research priority** and **community contribution**.
+We provide only web resources 
+- **Wikipedia**
+- **MADLAD-400-tetun**
+- **Labadain-30k+**
 
-- **Sample Release (10%)**: [📥 Download sample subset](link-to-sample)  
 - **Full Dataset**: Available **upon request** for non-commercial research only.  
-  Please fill this [Access Request Form](link-to-form) or contact [email].
+  Please fill this [Access Request Form](link-to-form).
 
 ---
 
-## ⚙️ Installation
-```bash
-git clone https://github.com/username/repo.git
-cd repo
-pip install -r requirements.txt
-
+## ⚙️ How to Use
+Lafaek-Corpus-1M+ Web resources can use Huggingface🤗 
+[HF Dataset Link](link dataset)
+```python
+import datasets
+```
 ---
-##📚 Citation
+## 📚 Citation
 If you use this dataset, please cite:
 
 ```bibtex
-@inproceedings{nishida2025lafaekavsr,
-  title={Lafaek-AVSR: Cross-Lingual Audio-Visual Speech Recognition for Tetun},
-  author={Nishida, Yuichi and Tamura, Satoshi},
+@inproceedings{nishida2025LafaekCorpus,
+  title={LAFAEK-CORPUS-1M+: A LARGE-SCALE TETUN CORPUS TO BUILD A LOW-RESOURCED LLM FOR SPEECH AND TEXT PROCESSING},
+  author={Nishida, Yuichi AND Kuroda, Yuto AND Tamura, Satoshi },
   booktitle={O-COCOSDA},
   year={2025}
 }
